@@ -11,7 +11,7 @@
 
     The first search was conducted in the DeviceFileEvents for any file containing the string “tor”. The results reveal that a labuser1 had something to do with the tor file.
 
-    Query used to get this information:
+    Query used to get this information: The query searches the DeviceFileEvents logs for the device of interest (mm-mde-onboardi) for any file name that starts with tor and displays the desired columns. 
 
      ![image alt ](https://github.com/Muts256/TOR-Usage-Threat-Hunt/blob/0e8ca97df3e2e2a30b5688bb45bd49c542b7ae0e/T6.png)
 
