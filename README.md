@@ -140,15 +140,15 @@
 1. Initial Process Activity
 **At 11:49:28 AM:**, a process associated with labuser1 was started. Although this process did not immediately create any files, it is later identified as the parent process responsible for creating Shopping List.txt. This timestamp represents the process creation, not the file creation itself.
 
-###2. Tor Browser Installation and Launch
+2. Tor Browser Installation and Launch
 **Between 12:18 PM and 12:19 PM**, the Tor Browser portable installer was executed silently (/S flag silently), signalling the start of installation. Shortly afterwards, multiple Firefox-related processes were created, representing:
 
 **At 12:19:22 PM**, the tor.exe process began running using the system’s Tor configuration. This marks the point where the Tor routing service initialises and begins establishing encrypted circuits.
 
-###3. Tor Network Communications
+3. Tor Network Communications
 **Network telemetry** shows Tor network activity beginning at 12:19:33 PM, with tor.exe connecting to IP address 45.137.70.158 on port 9001. A second connection to the same node was made shortly afterwards. These appear to be standard Tor entry/guard node connections.
 
-###4. File Creation Unrelated to Tor
+4. File Creation Unrelated to Tor
 **At 12:28:57 PM**, the file Shopping List.txt was created on the desktop by user labuser1. This action is not related to Tor Browser activity and appears to be a normal user-generated file.
 
 <h2> 🤳 Connect with me:</h2>
