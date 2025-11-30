@@ -8,13 +8,13 @@
     Management suspects that some employees may be using TOR browsers to bypass network security controls because recent network logs show unusual encrypted traffic patterns and connections to known TOR entry nodes. Additionally, there have been anonymous reports of employees discussing ways to access restricted sites during work hours. The goal is to detect any TOR usage and analyze related security incidents to mitigate potential risks.
 
     <h2> Steps Taken: </h2>
-       <b> 1. Collecting data</b> 
+       <b> 1. Querying the Logs</b> 
        
   <b>2. Chronological Assessment.</b>
 
-  <b>3. Report.</b>
+  <b>3. Summary Report.</b>
   
-   <h2> 1. Collection of Data</h2>
+   <h2> 1. Querying the Logs</h2>
     The first search was conducted in the DeviceFileEvents for any file containing the string “tor”. The results reveal that a labuser1 had something to do with the tor file.
 
     Query used to get this information: The query searches the DeviceFileEvents logs for the device name of interest (mm-mde-onboardi) for any file name that starts with tor and displays the desired columns. 
@@ -131,6 +131,9 @@
 **Details:** The file *Shopping List.txt* was created in `C:\Users\labuser1\Desktop`.  
 **User:** labuser1  
 **Notes:** This appears to be a user-created file and is not related to Tor Browser activity
+
+
+<h2> 3. Summary Report.</h2>
 
   
 <h2> 🤳 Connect with me:</h2>
