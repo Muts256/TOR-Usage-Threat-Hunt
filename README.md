@@ -41,8 +41,8 @@
 
  <h2> 2. Chronological Assessment.</h2>
 
-Time: 11:49:28 AM
-Event Type: Process Creation.
+**Time: 11:49:28 AM**
+**Event Type: Process Creation.**
 Details: A process that later created Shopping List.txt was started.
 User: labuser1
 Notes: This is not the file creation time — only the creation time of the process responsible for it.
