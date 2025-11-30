@@ -48,7 +48,7 @@
 **Event Type:** Process Creation  
 **Details:** A process that later created *Shopping List.txt* was started.  
 **User:** labuser1  
-**Notes:** This is not the file creation time — only the creation time of the process responsible for it.
+**Notes:** This is not the file creation time, only the creation time of the process responsible for it.
 
 ### 
 **Time:** 12:18:27 PM  
