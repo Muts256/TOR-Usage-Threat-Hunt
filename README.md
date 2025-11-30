@@ -10,8 +10,9 @@
     <h2> Steps Taken: </h2>
        <b> 1. Collecting data</b> 
        
-  <b> 2. Chronological Assessment.</b>
-        3. Report.
+  2. Chronological Assessment.
+
+  3. Report.
   
    <h3>Collection Data</h3>
     The first search was conducted in the DeviceFileEvents for any file containing the string “tor”. The results reveal that a labuser1 had something to do with the tor file.
