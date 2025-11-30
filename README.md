@@ -20,7 +20,7 @@
 
     ![image alt](https://github.com/Muts256/TOR-Usage-Threat-Hunt/blob/7fc5182039620638c371289e22208ea8a45584bb/T2.png)
 
-
+    One file of interest had the name "tor-brower-windows". The logs showed that a command was executed to install the browser silently
 
 
 
