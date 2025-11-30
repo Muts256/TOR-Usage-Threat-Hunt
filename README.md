@@ -12,7 +12,7 @@
     The first search was conducted in the DeviceFileEvents for any file containing the string “tor”. The results reveal that a labuser1 had something to do with the tor file.
 
     Query used to get this information:
-   https://github.com/Muts256/TOR-Usage-Threat-Hunt/blob/dab2866801a95493812fbc764fd14961445b3369/T6.png
+   ![image alt (https://github.com/Muts256/TOR-Usage-Threat-Hunt/blob/dab2866801a95493812fbc764fd14961445b3369/T6.png)]
 
 <h2> 🤳 Connect with me:</h2>
 
