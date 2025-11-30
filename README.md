@@ -137,7 +137,7 @@
 
   This report summarises the user and system activity observed on the endpoint mm-mde-onboardi on 29 November 2025, focusing on the installation and operation of the Tor Browser and the subsequent creation of a user-generated text file.
 
-###1. Initial Process Activity
+1. Initial Process Activity
 **At 11:49:28 AM:**, a process associated with labuser1 was started. Although this process did not immediately create any files, it is later identified as the parent process responsible for creating Shopping List.txt. This timestamp represents the process creation, not the file creation itself.
 
 ###2. Tor Browser Installation and Launch
