@@ -34,11 +34,13 @@
 
     ![image alt](https://github.com/Muts256/TOR-Usage-Threat-Hunt/blob/b2d8a9f2c225bff8b2c430b57e5f12aab93ebef9/T4.png)
 
-    Checking network activities to find if there was any connection made by the Tor browser that was installed by the user. Results obtained by querying the DeviceNetworkEvent for InitiatingFileName tor.exe and firefox.exe show that there were some connections made to a remote IP address on port 9001
+    Checking network activities to find if there was any connection made by the Tor browser that was installed by the user. Results obtained by querying the DeviceNetworkEvent logs for InitiatingFileName tor.exe and firefox.exe show that there were some connections made to a remote IP address on port 9001
 
     ![image alt](https://github.com/Muts256/TOR-Usage-Threat-Hunt/blob/fd8507dc02a772348dd4982132afbb947f2ea3fd/T10.png)
 
 
+ <h2> 2. Chronological Assessment.</h2>
+ 
   
 <h2> 🤳 Connect with me:</h2>
 
