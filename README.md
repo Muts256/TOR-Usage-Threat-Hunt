@@ -2,7 +2,7 @@
 
 <h2>👨‍💻 TOR Usage Threat Hunt </h2>
 
-- <b> Threat Hunt</b>
+- <b> Detection of Unauthorized TOR Browser Installation and Use</b>
   - [TOR Usage Threat Hunt](https://github.com/Muts256/TOR-Usage-Threat-Hunt)
 
 
