@@ -24,7 +24,14 @@
 
     ![image alt](https://github.com/Muts256/TOR-Usage-Threat-Hunt/blob/c702c4978329397958fa87ec7caef715075bbbd8/T7.png)
 
-      
+    Other files of interest that were seen on the desktop included one named "shopping list" created and InitiatingProcessAccountName by the user.
+
+    ![image alt](https://github.com/Muts256/TOR-Usage-Threat-Hunt/blob/b2d8a9f2c225bff8b2c430b57e5f12aab93ebef9/T4.png)
+
+
+
+
+  
 <h2> 🤳 Connect with me:</h2>
 
 [<img align="left" alt="michael-musoke | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
