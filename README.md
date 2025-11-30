@@ -17,7 +17,7 @@
   <b>4.Responce Taken</b>
   
    <h2> 1. Querying the Logs</h2>
-    The first search was conducted in the DeviceFileEvents for any file containing the string “tor”. The results reveal that a labuser1 had something to do with the tor file.
+    The first search was conducted in the DeviceFileEvents for any file containing the string “tor”. The results reveal that a user, labuser1, had something to do with the tor file.
 
     Query used to get this information: The query searches the DeviceFileEvents logs for the device name of interest (mm-mde-onboardi) for any file name that starts with tor and displays the desired columns. 
 
