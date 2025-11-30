@@ -41,56 +41,56 @@
 
  <h2> 2. Chronological Assessment.</h2>
 
-### 1
+### 
 **Time:** 11:49:28 AM  
 **Event Type:** Process Creation  
 **Details:** A process that later created *Shopping List.txt* was started.  
 **User:** labuser1  
 **Notes:** This is not the file creation time — only the creation time of the process responsible for it.
 
-### 2
+### 
 **Time:** 12:18:27 PM  
 **Event Type:** ProcessCreated  
 **Details:** The Tor Browser installer `tor-browser-windows-x86_64-portable-15.0.2.exe /S` was executed silently.  
 **User:** labuser1  
 **Notes:** This marks the beginning of the Tor Browser installation.
 
-### 3
+### 
 **Time:** 12:19:14 PM  
 **Event Type:** ProcessCreated  
 **Details:** Firefox (Tor Browser interface) was launched.  
 **User:** labuser1  
 **Notes:** This begins the Tor Browser user interface startup.
 
-### 4
+### 
 **Time:** 12:19:14 PM  
 **Event Type:** ProcessCreated  
 **Details:** Another Firefox content process was spawned during startup.  
 **User:** labuser1  
 **Notes:** Tor Browser uses multiple Firefox subprocesses.
 
-### 5
+### 
 **Time:** 12:19:20 PM  
 **Event Type:** ProcessCreated  
 **Details:** A Firefox GPU process was started.  
 **User:** labuser1  
 **Notes:** Normal Firefox/Tor Browser rendering behavior.
 
-### 6
+### 
 **Time:** 12:19:21 PM  
 **Event Type:** ProcessCreated  
 **Details:** A Firefox content process (tab) was created.  
 **User:** labuser1  
 **Notes:** Part of multi-process browser architecture.
 
-### 7
+### 
 **Time:** 12:19:22 PM  
 **Event Type:** ProcessCreated  
 **Details:** The Tor routing service `tor.exe` was started using its full torrc configuration.  
 **User:** labuser1  
 **Notes:** This is where Tor begins building circuits.
 
-### 8
+### 
 **Time:** 12:19:22 PM  
 **Event Type:** ProcessCreated  
 **Details:** Additional Firefox content processes were started.  
@@ -104,28 +104,28 @@
 **User:** labuser1  
 **Notes:** This is a Tor entry/guard node connection.
 
-### 10
+### 
 **Time:** 12:19:35 PM  
 **Event Type:** Network Connection  
 **Details:** `tor.exe` made another connection to IP 45.137.70.158 on port 9001.  
 **User:** labuser1  
 **Notes:** Continued Tor circuit establishment.
 
-### 11
+### 
 **Time:** 12:19:44 PM  
 **Event Type:** ProcessCreated  
 **Details:** A Firefox content process (tab 8) was created.  
 **User:** labuser1  
 **Notes:** Indicates active tab loading in Tor Browser.
 
-### 12
+### 
 **Time:** 12:19:51 PM  
 **Event Type:** Network Connection  
 **Details:** `firefox.exe` connected to 127.0.0.1 on port 9150.  
 **User:** labuser1  
 **Notes:** This is the SOCKS proxy allowing Firefox traffic to enter the Tor network.
 
-### 13
+### 
 **Time:** 12:28:57 PM  
 **Event Type:** FileCreated  
 **Details:** The file *Shopping List.txt* was created in `C:\Users\labuser1\Desktop`.  
