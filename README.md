@@ -2,10 +2,10 @@
 
 <h2>👨‍💻 TOR Usage Threat Hunt </h2>
 
-- <b> Detection of Unauthorized TOR Browser Installation and Use</b>
+- <b> Detection of Unauthorised TOR Browser Installation and Use</b>
 
     <h2> Scenario: </h2>
-    Management suspects that some employees may be using TOR browsers to bypass network security controls because recent network logs show unusual encrypted traffic patterns and connections to known TOR entry nodes. Additionally, there have been anonymous reports of employees discussing ways to access restricted sites during work hours. The goal is to detect any TOR usage and analyze related security incidents to mitigate potential risks.
+    Management suspects that some employees may be using TOR browsers to bypass network security controls because recent network logs show unusual encrypted traffic patterns and connections to known TOR entry nodes. Additionally, there have been anonymous reports of employees discussing ways to access restricted sites during work hours. The goal is to detect any TOR usage and analyse related security incidents to mitigate potential risks.
 
     <h2> Steps Taken: </h2>
        <b> 1. Querying the Logs</b> 
@@ -140,7 +140,7 @@
   This report summarises the user and system activity observed on the endpoint mm-mde-onboardi on 29 November 2025, focusing on the installation and operation of the Tor Browser and the subsequent creation of a user-generated text file.
 
 1. Initial Process Activity
-**At 11:49:28 AM:**, a process associated with labuser1 was started. Although this process did not immediately create any files, it is later identified as the parent process responsible for creating Shopping List.txt. This timestamp represents the process creation, not the file creation itself.
+**At 11:49:28 AM:**, a process associated with labuser1 was started. Although this process did not immediately create any files, it was later identified as the parent process responsible for creating Shopping List.txt. This timestamp represents the process creation, not the file creation itself.
 
 2. Tor Browser Installation and Launch
 **Between 12:18 PM and 12:19 PM**, the Tor Browser portable installer was executed silently (/S flag silently), signalling the start of installation. Shortly afterwards, multiple Firefox-related processes were created, representing: At 12:19:22 PM, the tor.exe process began running using the system’s Tor configuration. This marks the point where the Tor routing service initialises and begins establishing encrypted circuits.
@@ -155,6 +155,70 @@
 <h2> 4.Responce Taken.</h2>
 
 TOR usage was confirmed on endpoint mm.mde.onboardi. The device was isolated, and the user's direct manager was notified
+
+
+
+
+<h2> Recommendations to Prevent Similar Activity </h2>
+
+1. Enforce Application Control (High Priority)
+
+    - Allow only trusted, signed applications.
+
+    - Block portable executables launched from user folders (Desktop, Downloads).
+
+    - Restrict execution in all user-writable directories.
+
+2. Strengthen Software Installation Controls
+
+    - Remove local administrator rights from standard users.
+
+    - Require elevated approval and auditing for any software installation.
+
+    - Deploy applications only through managed solutions (Intune, SCCM).
+
+3. Block and Detect Tor at the Network Layer
+
+    - Enable TLS inspection to identify Tor handshake behaviour.
+
+    - Block Tor-related domains using DNS/web filtering.
+
+    - Monitor outbound connections to known Tor ports (9001, 9030, 9050, 9150).
+
+4. Improve Endpoint Detection & Monitoring
+
+    - Enable Microsoft Defender for Endpoint TVM alerts for unauthorised software.
+
+    - Configure custom detections for tor.exe or Firefox launched from Tor directories.
+
+    - Monitor the execution of portable applications from uncommon locations.
+
+5. Apply Web Filtering and Download Restrictions
+
+    - Route all downloads through monitored, policy-enforced gateways.
+
+    - Block categories such as “anonymisers,” “circumvention tools,” and “dark web tools.”
+
+6. Strengthen User Awareness and Policy Enforcement
+
+    - Train users on the risks of anonymity tools and unauthorised installations.
+
+    - Update the Acceptable Use Policy to explicitly prohibit privacy software like Tor Browser.
+
+7. Harden Local File System Permissions
+
+    - Make Desktop and Downloads read-only for non-admin users.
+
+    - Restrict write access to system directories to prevent abuse of portable software.
+
+<h2> Lessons Learned </h2>
+
+- KQL Proficiency: Using KQL to query logs
+- Investigative reasoning: What logs to query from the given clues
+- Event Correlation: Reconstruction Time frame of the events
+- Baseline behaviour: To make finding anomalies faster.
+- Importance of user education to avoid risky behaviour
+- Necessity of custom detection rules to detect usual/undesirable processes
 
 <h2> 🤳 Connect with me:</h2>
 
