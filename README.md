@@ -12,9 +12,9 @@
        
   <b>2. Chronological Assessment.</b>
 
-  3. Report.
+  <b>3. Report.</b>
   
-   <h3>Collection Data</h3>
+   <h2>Collection Data</h2>
     The first search was conducted in the DeviceFileEvents for any file containing the string “tor”. The results reveal that a labuser1 had something to do with the tor file.
 
     Query used to get this information: The query searches the DeviceFileEvents logs for the device name of interest (mm-mde-onboardi) for any file name that starts with tor and displays the desired columns. 
