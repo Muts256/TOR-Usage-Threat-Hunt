@@ -2,7 +2,7 @@
 
 <h2>👨‍💻 TOR Usage Threat Hunt </h2>
 
-- <b> SIEM Installation & Configuration</b>
+- <b> Threat Hunt</b>
   - [TOR Usage Threat Hunt](https://github.com/Muts256/TOR-Usage-Threat-Hunt)
 
 
