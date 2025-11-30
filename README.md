@@ -20,7 +20,7 @@
 
     ![image alt](https://github.com/Muts256/TOR-Usage-Threat-Hunt/blob/7fc5182039620638c371289e22208ea8a45584bb/T2.png)
 
-    One file of interest had the name "tor-brower-windows". The logs showed that a command was executed to install the browser silently. Evidence of this is shown by querying the DeviceProcessEvent logs
+    One file of interest had the name "tor-brower-windows". The logs showed that a command starting with this file name was executed to install the browser silently. Evidence of this is shown by querying the DeviceProcessEvent logs
 
     ![image alt](https://github.com/Muts256/TOR-Usage-Threat-Hunt/blob/c702c4978329397958fa87ec7caef715075bbbd8/T7.png)
 
