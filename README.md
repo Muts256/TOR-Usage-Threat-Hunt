@@ -213,12 +213,12 @@ TOR usage was confirmed on endpoint mm.mde.onboardi. The device was isolated, an
 
 <h2> Lessons Learned </h2>
 
-- KQL Proficiency: Using KQL to query logs
-- Investigative reasoning: What logs to query from the given clues
-- Event Correlation: Reconstruction Time frame of the events
+- KQL Proficiency: Using KQL to query logs.
+- Investigative reasoning: What logs to query from the given clues.
+- Event Correlation: Reconstruction Time frame of the events.
 - Baseline behaviour: To make finding anomalies faster.
-- Importance of user education to avoid risky behaviour
-- Necessity of custom detection rules to detect usual/undesirable processes
+- Importance of user education to avoid risky behaviour.
+- Necessity of custom detection rules to detect usual/undesirable processes.
 
 <h2> 🤳 Connect with me:</h2>
 
