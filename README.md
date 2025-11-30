@@ -10,7 +10,7 @@
     <h2> Steps Taken: </h2>
        <b> 1. Collecting data</b> 
        
-  2. Chronological Assessment.
+  <b>2. Chronological Assessment.</b>
 
   3. Report.
   
