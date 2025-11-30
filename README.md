@@ -9,6 +9,15 @@
 
     <h2> Steps Taken: </h2>
 
+    The first search was conducted in the DeviceFileEvents for any file containing the string “tor”. The results reveal that a labuser1 had something to do with the tor file.
+
+    Query used to get this information:
+
+    DeviceFileEvents
+    | where DeviceName == "mm-mde-onboardi"
+    | where FileName startswith "tor"
+    |project Timestamp, DeviceName, FileName, InitiatingProcessAccountName, InitiatingProcessFileName
+
 <h2> 🤳 Connect with me:</h2>
 
 [<img align="left" alt="michael-musoke | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
