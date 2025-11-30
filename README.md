@@ -41,17 +41,13 @@
 
  <h2> 2. Chronological Assessment.</h2>
 
-**Time: 11:49:28 AM**
-**Event Type: Process Creation.**
-Details: A process that later created Shopping List.txt was started.
-User: labuser1
-Notes: This is not the file creation time — only the creation time of the process responsible for it.
+### 1️⃣
+**Time:** 11:49:28 AM  
+**Event Type:** Process Creation (metadata reference)  
+**Details:** A process that later created *Shopping List.txt* was started.  
+**User:** labuser1  
+**Notes:** This is not the file creation time — only the creation time of the process responsible for it.
 
-Time: 12:18:27 PM
-Event Type: ProcessCreated
-Details: The Tor Browser installer tor-browser-windows-x86_64-portable-15.0.2.exe /S was executed silently.
-User: labuser1
-Notes: This marks the beginning of the Tor Browser installation.
 
   
 <h2> 🤳 Connect with me:</h2>
