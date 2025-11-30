@@ -16,7 +16,7 @@
      ![image alt ](https://github.com/Muts256/TOR-Usage-Threat-Hunt/blob/0e8ca97df3e2e2a30b5688bb45bd49c542b7ae0e/T6.png)
 
 
-  Further 
+  Further investigation of events on that particular day shows that the user had several files on the desktop. 
   
 <h2> 🤳 Connect with me:</h2>
 
