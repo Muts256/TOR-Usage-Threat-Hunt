@@ -187,8 +187,6 @@ TOR usage was confirmed on endpoint mm.mde.onboardi. The device was isolated, an
 
 4. Improve Endpoint Detection & Monitoring
 
-    - Enable Microsoft Defender for Endpoint TVM alerts for unauthorised software.
-
     - Configure custom detections for tor.exe or Firefox launched from Tor directories.
 
     - Monitor the execution of portable applications from uncommon locations.
