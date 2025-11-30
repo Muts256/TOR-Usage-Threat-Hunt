@@ -1,6 +1,6 @@
 <h1>Hi, I'm Michael! <br/><a href="https://www.linkedin.com/in/michael-musoke/">Cybersecurity Professional</a></h1>
 
-<h2>👨‍💻 TOR Usage Threat Hunt (SIEM)</h2>
+<h2>👨‍💻 TOR Usage Threat Hunt </h2>
 
 - <b> SIEM Installation & Configuration</b>
   - [TOR Usage Threat Hunt](https://github.com/Muts256/Active-Directory-Attack)
