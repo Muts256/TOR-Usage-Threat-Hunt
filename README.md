@@ -13,6 +13,8 @@
   <b>2. Chronological Assessment.</b>
 
   <b>3. Summary Report.</b>
+
+  <b>4.Responce Taken</b>
   
    <h2> 1. Querying the Logs</h2>
     The first search was conducted in the DeviceFileEvents for any file containing the string “tor”. The results reveal that a labuser1 had something to do with the tor file.
@@ -148,6 +150,11 @@
 
 4. File Creation Unrelated to Tor
 **At 12:28:57 PM**, the file Shopping List.txt was created on the desktop by user labuser1. This action is not related to Tor Browser activity and appears to be a normal user-generated file.
+
+
+<h2> 4.Responce Taken.</h2>
+
+TOR usage was confirmed on endpoint mm.mde.onboardi. The device was isolated, and the user's direct manager was notified
 
 <h2> 🤳 Connect with me:</h2>
 
