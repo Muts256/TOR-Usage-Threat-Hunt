@@ -14,7 +14,7 @@
 
   <b>3. Summary Report.</b>
 
-  <b>4.Responce Taken</b>
+  <b>4.Response Taken</b>
   
    <h2> 1. Querying the Logs</h2>
     The first search was conducted in the DeviceFileEvents for any file containing the string “tor”. The results reveal that a user, labuser1, had something to do with the tor file.
