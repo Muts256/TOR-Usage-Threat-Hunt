@@ -152,9 +152,9 @@
 **At 12:28:57 PM**, the file Shopping List.txt was created on the desktop by user labuser1. This action is not related to Tor Browser activity and appears to be a normal user-generated file.
 
 
-<h2> 4.Responce Taken.</h2>
+<h2> 4.Response Taken.</h2>
 
-TOR usage was confirmed on endpoint mm.mde.onboardi. The device was isolated, and the user's direct manager was notified
+TOR usage was confirmed on endpoint mm.mde.onboardi. The device was isolated, and the user's direct manager was notified.
 
 
 
